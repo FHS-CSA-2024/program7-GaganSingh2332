@@ -16,7 +16,7 @@ public class Program7 {
         int schruteBucks = 0;
         int stanleyNickels = 0;
         int klevin = 0;
-
+        
         
         System.out.println("Enter schrute-bucks: ");
             schruteBucks = numScanner.nextInt();
@@ -24,16 +24,21 @@ public class Program7 {
         System.out.println("Enter klevins: ");
             klevin = numScanner.nextInt();
             
-        System.out.println("Enter stanley-nichels: ");
+        System.out.println("Enter stanley-nickels: ");
             stanleyNickels = numScanner.nextInt();
+        int schruteBucks2 = 100 * stanleyNickels;
+        final int klevToSch = 20;
+        final int stanToKlev = 12; 
+        int finalSchruteBucks = 20 * klevin;
+        int finalKlevins = 12 * stanleyNickels;
         
-        //final int finals = SchruteBuck = 20 * klevins;
-        //final int finalKlevin = 12 * stanleyNichels;
+        double total = 0;
+        total = (klevin * stanToKlev) + stanleyNickels;
+        double total2 = total / (stanToKlev * klevToSch); 
+        System.out.println("Decimal schrute-bucks = " + schruteBucks + total2);
         
-        System.out.println(schruteBucks + "." + klevin + "." + stanleyNickels);
+      
         
-        int newStanleyNickel = 0;
-        int schruteBuck = 100 * newStanleyNickel;
         
         
     }
