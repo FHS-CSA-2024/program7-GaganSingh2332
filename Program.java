@@ -1,4 +1,4 @@
-package src.main.java;
+ 
 
 //import stuff here
 import java.util.Scanner;
@@ -31,11 +31,13 @@ public class Program7 {
         final int stanToKlev = 12; 
         int finalSchruteBucks = 20 * klevin;
         int finalKlevins = 12 * stanleyNickels;
-        
         double total = 0;
         total = (klevin * stanToKlev) + stanleyNickels;
         double total2 = total / (stanToKlev * klevToSch); 
-        System.out.println("Decimal schrute-bucks = " + schruteBucks + total2);
+        double total3 = (schruteBucks + total2);
+        int total31 = (int) (total3 * 100);
+        total3 =  (double) total31 / 100;
+        System.out.println("Decimal schrute-bucks = " + total3 );
         
       
         
